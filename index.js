@@ -97,6 +97,10 @@ io.on('connection', (socket) => {
   });
 });
 
+const cors = require('cors');
+app.use(cors({
+    origin: 'https://www.section.io'
+}));
 server.listen(process.env.PORT || 3000, () => {
   console.log("listening on *:3000");
 });

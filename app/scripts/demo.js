@@ -2,7 +2,7 @@ let socket = io();
 
 let vid;
 function preload() {
-    vid = createVideo("https://people.rit.edu/nam6711/rick_roll.mp4");
+    vid = createVideo("https://rick-physics-f50b6ed65d0f.herokuapp.com/rick_roll");
 }
 
 function setup() {
