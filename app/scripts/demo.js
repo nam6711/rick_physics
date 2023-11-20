@@ -2,7 +2,7 @@ let socket = io();
 
 let vid;
 function preload() {
-    vid = createVideo("http://localhost:3000/rick_roll");
+    vid = createVideo("https://people.rit.edu/nam6711/rick_roll.mp4");
 }
 
 function setup() {
