@@ -3,8 +3,8 @@ let logged_in = false;
 
 let vid;
 function preload() {
-    // vid = createVideo("https://rick-physics-f50b6ed65d0f.herokuapp.com/rick_roll");
-    vid = createVideo("http://localhost:3000/rick_roll");
+    vid = createVideo("https://rick-physics-f50b6ed65d0f.herokuapp.com/rick_roll");
+    // vid = createVideo("http://localhost:3000/rick_roll");
 }
 
 function setup() {
